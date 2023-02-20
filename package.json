@@ -1,0 +1,25 @@
+{
+  "name": "bulk-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "neelesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "convert-excel-to-json": "^1.7.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "joi": "^13.1.0",
+    "mongoose": "^6.9.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
